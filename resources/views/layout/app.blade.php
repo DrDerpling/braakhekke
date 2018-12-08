@@ -9,13 +9,15 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
 <!-- Styles -->
-<link href="{{ mix('css/app.css') }}">
+<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 </head>
 
 <body>
-    @include('partials.nav')
+
 
     <div class="container">
+        @include('partials.nav')
+
         @yield('content')
     </div>
 
