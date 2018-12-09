@@ -5,20 +5,22 @@
 
     <title>Braakhekke</title>
 
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
-<!-- Styles -->
-<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+    <!-- Styles -->
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet"/>
+    <script src="{{asset('/js/app.js')}}"></script>
 </head>
 
 <body>
 
 
-    <div class="container">
-        @include('partials.nav')
-
+<div class="container">
+    @include('partials.nav')
+    <div class="border shadow-sm p-5">
         @yield('content')
     </div>
+</div>
 
 </body>

@@ -13,6 +13,28 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-.carousel-inner img {
-  margin: auto;
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+.bg-black {
+  background-color: #282a2c
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.contact-info {
+  list-style: none;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  float: right;
 }

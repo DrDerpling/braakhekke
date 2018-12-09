@@ -1,6 +1,31 @@
-<a class="navbar-brand" href="#"><img src="{{ asset('/images/logo.png') }}"></a>
+<div class="row">
+    <div class="col m-1">
+        <a href="/"><img src="{{ asset('/images/logo.png') }}"></a>
+    </div>
+
+    <div class="col m-1">
+        <ul class="contact-info">
+            <li>
+                Baangracht 8A
+            </li>
+            <li>
+                8061 HZ Hssselt
+            </li>
+            <li>
+                06 - 22 20 48 17
+            </li>
+            <li>
+                038 - 477 44 46
+            </li>
+            <li>
+                Info@braakhekke.nu
+            </li>
+        </ul>
+    </div>
+</div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -26,13 +51,8 @@
         </ul>
     </div>
 </nav>
-<div id="carouselExampleIndicators" class="carousel slide bg-dark" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner w-75">
+<div id="carouselExampleIndicators" class="carousel slide bg-black" data-ride="carousel">
+    <div class="carousel-inner w-90">
         <div class="carousel-item active">
             <img class="d-block w-100" src="{{ asset('/images/headers/header1.jpg') }}" alt="First slide">
         </div>
