@@ -1,6 +1,7 @@
 @extends('layout.app')
 
 @section('content')
+    <h3>Welkom</h3>
     <p>
         Braakhekke dak en isolatiewerken heeft persoonlijke aanpak We bieden openheid en maken duidelijke afspraken.
         Daar bovenop hebben wij een flexibele houding wat resulteert in tevredenheid bij onze trouwe klanten.

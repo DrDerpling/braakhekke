@@ -21,6 +21,7 @@
     <div class="border shadow-sm p-5">
         @yield('content')
     </div>
+    @include('partials.footer')
 </div>
 
 </body>

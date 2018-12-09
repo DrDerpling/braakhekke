@@ -1,28 +1,10 @@
 <div class="row">
     <div class="col m-1">
-        <a href="/"><img src="{{ asset('/images/logo.png') }}"></a>
-    </div>
-
-    <div class="col m-1">
-        <ul class="contact-info">
-            <li>
-                Baangracht 8A
-            </li>
-            <li>
-                8061 HZ Hssselt
-            </li>
-            <li>
-                06 - 22 20 48 17
-            </li>
-            <li>
-                038 - 477 44 46
-            </li>
-            <li>
-                Info@braakhekke.nu
-            </li>
-        </ul>
+        <a class="navbar-brand" href="/"><img src="{{ asset('/images/logo.png') }}"></a>
     </div>
 </div>
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +42,7 @@
             <img class="d-block w-100" src="{{ asset('/images/headers/header2.jpg') }}" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
+            <img class="d-block w-100" src="{{ asset('/images/headers/header3.jpg') }}" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

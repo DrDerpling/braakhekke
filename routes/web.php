@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-        return view('pages.home');
+    return File::put('test.html',
+        view('pages.home')
+            ->render()
+    );
+        return view('pages.home')->render();
 });
